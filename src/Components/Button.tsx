@@ -9,7 +9,7 @@ const Button = () => {
         setIsExploding(true);
         setTimeout(() => {
             setIsExploding(false);
-        }, 1500); // Confetti lasts for 3 seconds
+        }, 1500);
     };
 
     useEffect(() => {
