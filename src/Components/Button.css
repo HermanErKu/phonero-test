@@ -6,7 +6,9 @@
     color: #282c34;
 
     height: 7.5vw;
-    width: 25vw;
+    width: 35vw;
+
+    margin: 10px;
 }
 
 .button-container:hover {
