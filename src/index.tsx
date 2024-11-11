@@ -5,6 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import Index from './Pages/Index';
+import ApiPage from './Pages/ApiPage';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Routes>
         <Route index element={<Index />} />
         <Route path="/" element={<Index />} />
+        <Route path="/api" element={<ApiPage />} />
       </Routes>
     </BrowserRouter>
   );
