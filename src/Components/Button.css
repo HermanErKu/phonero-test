@@ -1,0 +1,22 @@
+.button-container {
+    background-color: #e3e3e3;
+    border-radius: 1.5vw;
+    text-align: center;
+    cursor: pointer;
+    color: #282c34;
+
+    height: 7.5vw;
+    width: 25vw;
+}
+
+.button-container:hover {
+    background-color: #d6d6d6
+}
+
+.button-container:active {
+    background-color: #c1c1c1
+}
+
+.button-container > h1 {
+    font-size: 5vw;
+}
